@@ -1,0 +1,79 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #FFF6F6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #FFDFDF;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 0%;
+}
+
+.login-container h2 {
+    color: #333333;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666666;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd; 
+    border-radius: 4px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #7fa2b8;
+    color: #ffffff; 
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #7fa2b8; /* Goldenrod */
+}
+
+.signup-link {
+    margin-top: 15px;
+    color: #666666; /* Gray */
+    font-size: 14px;
+}
+
+.signup-link a {
+     /* Green */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
